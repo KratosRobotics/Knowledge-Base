@@ -1,0 +1,31 @@
+site_name: Documentação técnica Kratos Robotics
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Desenvolvimento:
+    - SDK: Desenvolvimento/sdk.md
+    - Fundamentos do desenvolvimento Android: Desenvolvimento/fundamentos-android.md
+  - Falhas: Falhas/problemas-e-solucoes.md
+  - Manutenções e Tutoriais: ManutencaoTutoriais/tutoriais.md
+  - Fornecedores: Fornecedores/
+  - Checklists:
+    - PDI: Checklists/pdi.md
+    - Instalação: Checklists/instalacao.md
+    - Preventiva: Checklists/preventiva.md
+    - Retorno: Checklists/retorno.md
+    - Comercial: Checklists/comercial.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js
+  - js/checkbox.js
+  - js/analise-modelo.js

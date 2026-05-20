@@ -1,0 +1,5 @@
+# publicar documento
+mkdocs gh-deploy 
+
+# visualizar documento em localhost 
+mkdocs serve
