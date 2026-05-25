@@ -3,6 +3,13 @@ site_name: Documentação técnica Kratos Robotics
 theme:
   name: material
 
+  logo: assets/logo.png
+
+  palette:
+    scheme: slate
+    primary: indigo
+    accent: light blue
+
 nav:
   - Home: index.md
   - Desenvolvimento:

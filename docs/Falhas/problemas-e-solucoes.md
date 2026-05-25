@@ -223,6 +223,21 @@ Roda motorizada defeituosa.
 
 Substituir roda motorizada defeituosas por nova.
 
+**1. Ao sair do carregador de base, o robô dispara a mensagem "I'm lost" e pede para restaurar localização**
+
+**Identificação:** 
+
+Ao comando de executar uma tarefa de limpeza, aparece mensagem de estar perdido.
+
+**Possível causa:**
+
+Carregador posicionado no espaço em local diferente do registrado no mapa.
+
+**Resolução:**
+
+Delete o carregador do mapa e adicione-o novamente. Por fim, faça upload do mapa para nuvem e teste.
+
+
 ## Falhas de inicialização
 
 **1.  Falha em iniciar app de mapeamento ("Software cannot start") / Falha no app principal (C40)**
